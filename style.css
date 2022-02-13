@@ -19,7 +19,7 @@
 }
 
 body {
-    background: rgb(51, 51, 51);
+    background: linear-gradient(to bottom, rgb(6,0, 28), black);
     color: white;
     font-family: open-sans;
     font-size: 1.5rem;
@@ -59,7 +59,7 @@ button {
     background-color: var(--purple);
     color: white;
     border: none;
-    box-shadow: black 1px 1px 10px;
+    box-shadow: rgb(42, 23, 117) 3px 3px 3px;
 }
 
 button:hover {
@@ -114,11 +114,12 @@ input {
     height: 1.5rem;
     width: 15rem;
     padding: 5px;
+    outline: none;
 }
 
 label {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
@@ -139,9 +140,12 @@ a:hover {
 }
 
 input:focus {
-    border: 3px solid lightskyblue;
+    border: 3px solid var(--purple);
+    box-sizing: 1px;
+    box-shadow: rgb(42, 23, 117) 3px 3px 3px;
 }
 
 input:invalid {
     border: 3px solid red;
+    box-shadow: rgb(107, 0, 0) 3px 3px 3px;
 }
