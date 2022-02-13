@@ -72,7 +72,7 @@ button:hover {
 }
 
 .vrguy {
-    min-height: 100%;
+    height: 100vh;
     max-width: 40vw;
     object-fit: cover;
 }
